@@ -1,6 +1,9 @@
 
 ## ¿Qué es el Modelo Vista Controlador (MVC)?
 
+![Modelo Vista Controlador](https://www.precognis.com/wp-content/uploads/2022/08/Modelo-Vista-Controlador.png)
+
+
 El **Modelo Vista Controlador (MVC)** es un patrón de arquitectura de software utilizado en la programación de aplicaciones de software. En el modelo vista controlador, la lógica de la aplicación se divide en tres componentes principales:
 
 -   El modelo: representa los datos y la lógica empresarial de la aplicación. El modelo se utiliza para recuperar, actualizar y almacenar los datos de la aplicación.
@@ -119,3 +122,15 @@ class PersonaController extends Controller {
   Edad: {{ $persona->edad }}<br>
 @endforeach
 ~~~
+##Vista en el modelo vista, controlador
+En las vistas, se reciben los datos del modelo a través del controlador, el cual se encarga de obtener los datos del modelo y enviarlos a la vista correspondiente. A su vez, las vistas envían las acciones del usuario al controlador para que este procese la información y actualice el modelo correspondiente.
+
+Las vistas pueden ser de diferentes tipos, dependiendo de la tecnología utilizada para su implementación. Algunos ejemplos de vistas son:
+
+Páginas web HTML: Las vistas pueden estar implementadas como archivos HTML que se generan dinámicamente con el servidor. En este caso, la vista recibe los datos del modelo y los muestra en la página web.
+
+Interfaces gráficas de usuario (GUI): Las vistas pueden ser implementadas como ventanas o diálogos en una aplicación de escritorio. En este caso, la vista recibe los datos del modelo y los muestra en la GUI correspondiente.
+
+Aplicaciones móviles: Las vistas pueden ser implementadas como pantallas en una aplicación móvil. En este caso, la vista recibe los datos del modelo y los muestra en la pantalla correspondiente.
+
+En resumen, la vista en la arquitectura MVC es la capa encargada de presentar los datos del modelo al usuario y recibir las acciones del usuario para enviarlas al controlador. Las vistas pueden ser implementadas de diferentes formas, dependiendo de la tecnología utilizada para su desarrollo.
