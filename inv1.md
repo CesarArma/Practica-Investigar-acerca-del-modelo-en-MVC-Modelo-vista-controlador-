@@ -123,7 +123,7 @@ class PersonaController extends Controller {
 @endforeach
 ~~~
 
-##Vista en el modelo vista, controlador
+## Vista en el modelo vista, controlador
 
 En las vistas, se reciben los datos del modelo a través del controlador, el cual se encarga de obtener los datos del modelo y enviarlos a la vista correspondiente. A su vez, las vistas envían las acciones del usuario al controlador para que este procese la información y actualice el modelo correspondiente.
 
